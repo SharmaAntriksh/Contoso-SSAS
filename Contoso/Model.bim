@@ -453,6 +453,44 @@
         ]
       }
     ],
+    "relationships": [
+      {
+        "name": "a86b9116-88a4-4247-b18a-17f7b5967ab8",
+        "fromTable": "Sales",
+        "fromColumn": "CustomerKey",
+        "toTable": "Customer",
+        "toColumn": "CustomerKey"
+      },
+      {
+        "name": "f9da6d8f-127f-4fd8-9aa1-7a898c1d805f",
+        "fromTable": "Sales",
+        "fromColumn": "ProductKey",
+        "toTable": "Product",
+        "toColumn": "ProductKey"
+      },
+      {
+        "name": "edace193-3d77-4918-97e2-f75faa3d0b75",
+        "fromTable": "Sales",
+        "fromColumn": "Order Date",
+        "toTable": "Date",
+        "toColumn": "Date"
+      },
+      {
+        "name": "462b760e-bd96-4aa8-ab22-14bbd679fe7a",
+        "fromTable": "Sales",
+        "fromColumn": "Delivery Date",
+        "toTable": "Date",
+        "toColumn": "Date",
+        "isActive": false
+      },
+      {
+        "name": "6c333e8b-7f0b-4100-8296-234a313bed03",
+        "fromTable": "Sales",
+        "fromColumn": "StoreKey",
+        "toTable": "Store",
+        "toColumn": "StoreKey"
+      }
+    ],
     "expressions": [
       {
         "name": "ServerName",
