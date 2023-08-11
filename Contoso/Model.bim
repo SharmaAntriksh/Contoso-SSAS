@@ -426,6 +426,10 @@
           {
             "name": "Sales PY",
             "expression": " CALCULATE ( [Sales Amount], SAMEPERIODLASTYEAR ( 'Dates'[Date] ) )"
+          },
+          {
+            "name": "Cost PY",
+            "expression": " CALCULATE ( [Cost Amount], SAMEPERIODLASTYEAR ( Dates[Date] ) )"
           }
         ]
       },
