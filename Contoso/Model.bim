@@ -427,6 +427,7 @@
             "name": "Sales PY",
             "expression": " CALCULATE ( [Sales Amount], SAMEPERIODLASTYEAR ( 'Dates'[Date] ) )",
             "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "displayFolder": "Time Intelligence",
             "annotations": [
               {
                 "name": "Format",
@@ -438,6 +439,7 @@
             "name": "Cost PY",
             "expression": " CALCULATE ( [Cost Amount], SAMEPERIODLASTYEAR ( Dates[Date] ) )",
             "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "displayFolder": "Time Intelligence",
             "annotations": [
               {
                 "name": "Format",
