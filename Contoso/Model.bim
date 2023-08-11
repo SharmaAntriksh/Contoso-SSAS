@@ -27,7 +27,7 @@
     ],
     "tables": [
       {
-        "name": "Date",
+        "name": "Dates",
         "columns": [
           {
             "name": "Date",
@@ -423,7 +423,7 @@
           },
           {
             "name": "Sales PY",
-            "expression": " CALCULATE ( [Sales Amount], SAMEPERIODLASTYEAR ( 'Date'[Date] ) )"
+            "expression": " CALCULATE ( [Sales Amount], SAMEPERIODLASTYEAR ( 'Dates'[Date] ) )"
           }
         ]
       },
@@ -526,14 +526,14 @@
         "name": "edace193-3d77-4918-97e2-f75faa3d0b75",
         "fromTable": "Sales",
         "fromColumn": "Order Date",
-        "toTable": "Date",
+        "toTable": "Dates",
         "toColumn": "Date"
       },
       {
         "name": "462b760e-bd96-4aa8-ab22-14bbd679fe7a",
         "fromTable": "Sales",
         "fromColumn": "Delivery Date",
-        "toTable": "Date",
+        "toTable": "Dates",
         "toColumn": "Date",
         "isActive": false
       },
