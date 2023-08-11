@@ -405,6 +405,7 @@
             "name": "Sales Amount",
             "expression": " SUMX ( Sales, Sales[Quantity] * Sales[Net Price] )",
             "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "displayFolder": "Model Measures",
             "annotations": [
               {
                 "name": "Format",
@@ -416,6 +417,7 @@
             "name": "Cost Amount",
             "expression": " SUMX ( Sales, Sales[Quantity] * Sales[Unit Cost] )",
             "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "displayFolder": "Model Measures",
             "annotations": [
               {
                 "name": "Format",
