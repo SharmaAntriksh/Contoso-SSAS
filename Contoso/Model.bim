@@ -397,6 +397,30 @@
               ]
             }
           }
+        ],
+        "measures": [
+          {
+            "name": "Sales Amount",
+            "expression": " SUMX ( Sales, Sales[Quantity] * Sales[Net Price] )",
+            "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "annotations": [
+              {
+                "name": "Format",
+                "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"$ English (United States)\" Symbol=\"$\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+              }
+            ]
+          },
+          {
+            "name": "Cost Amount",
+            "expression": " SUMX ( Sales, Sales[Quantity] * Sales[Unit Cost] )",
+            "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "annotations": [
+              {
+                "name": "Format",
+                "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"$ English (United States)\" Symbol=\"$\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+              }
+            ]
+          }
         ]
       },
       {
