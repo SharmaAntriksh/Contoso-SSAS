@@ -28,10 +28,12 @@
     "tables": [
       {
         "name": "Dates",
+        "dataCategory": "Time",
         "columns": [
           {
             "name": "Date",
             "dataType": "dateTime",
+            "isKey": true,
             "sourceColumn": "Date",
             "formatString": "yyyy-MM-dd",
             "annotations": [
