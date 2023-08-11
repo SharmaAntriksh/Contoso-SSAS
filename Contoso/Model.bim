@@ -32,7 +32,14 @@
           {
             "name": "Date",
             "dataType": "dateTime",
-            "sourceColumn": "Date"
+            "sourceColumn": "Date",
+            "formatString": "yyyy-MM-dd",
+            "annotations": [
+              {
+                "name": "Format",
+                "value": "<Format Format=\"DateTimeCustom\"><DateTimes><DateTime LCID=\"1033\" Group=\"ShortDate\" FormatString=\"yyyy-MM-dd\" /></DateTimes></Format>"
+              }
+            ]
           },
           {
             "name": "Year",
@@ -187,7 +194,14 @@
           {
             "name": "Birthday",
             "dataType": "dateTime",
-            "sourceColumn": "Birthday"
+            "sourceColumn": "Birthday",
+            "formatString": "yyyy-MM-dd",
+            "annotations": [
+              {
+                "name": "Format",
+                "value": "<Format Format=\"DateTimeCustom\"><DateTimes><DateTime LCID=\"1033\" Group=\"ShortDate\" FormatString=\"yyyy-MM-dd\" /></DateTimes></Format>"
+              }
+            ]
           },
           {
             "name": "Age",
@@ -307,12 +321,26 @@
           {
             "name": "Order Date",
             "dataType": "dateTime",
-            "sourceColumn": "Order Date"
+            "sourceColumn": "Order Date",
+            "formatString": "yyyy-MM-dd",
+            "annotations": [
+              {
+                "name": "Format",
+                "value": "<Format Format=\"DateTimeCustom\"><DateTimes><DateTime LCID=\"1033\" Group=\"ShortDate\" FormatString=\"yyyy-MM-dd\" /></DateTimes></Format>"
+              }
+            ]
           },
           {
             "name": "Delivery Date",
             "dataType": "dateTime",
-            "sourceColumn": "Delivery Date"
+            "sourceColumn": "Delivery Date",
+            "formatString": "yyyy-MM-dd",
+            "annotations": [
+              {
+                "name": "Format",
+                "value": "<Format Format=\"DateTimeCustom\"><DateTimes><DateTime LCID=\"1033\" Group=\"ShortDate\" FormatString=\"yyyy-MM-dd\" /></DateTimes></Format>"
+              }
+            ]
           },
           {
             "name": "CustomerKey",
@@ -337,17 +365,20 @@
           {
             "name": "Unit Price",
             "dataType": "decimal",
-            "sourceColumn": "Unit Price"
+            "sourceColumn": "Unit Price",
+            "formatString": "#,0.00"
           },
           {
             "name": "Net Price",
             "dataType": "decimal",
-            "sourceColumn": "Net Price"
+            "sourceColumn": "Net Price",
+            "formatString": "#,0.00"
           },
           {
             "name": "Unit Cost",
             "dataType": "decimal",
-            "sourceColumn": "Unit Cost"
+            "sourceColumn": "Unit Cost",
+            "formatString": "#,0.00"
           }
         ],
         "partitions": [
@@ -404,12 +435,26 @@
           {
             "name": "Open Date",
             "dataType": "dateTime",
-            "sourceColumn": "Open Date"
+            "sourceColumn": "Open Date",
+            "formatString": "yyyy-MM-dd",
+            "annotations": [
+              {
+                "name": "Format",
+                "value": "<Format Format=\"DateTimeCustom\"><DateTimes><DateTime LCID=\"1033\" Group=\"ShortDate\" FormatString=\"yyyy-MM-dd\" /></DateTimes></Format>"
+              }
+            ]
           },
           {
             "name": "Close Date",
             "dataType": "dateTime",
-            "sourceColumn": "Close Date"
+            "sourceColumn": "Close Date",
+            "formatString": "yyyy-MM-dd",
+            "annotations": [
+              {
+                "name": "Format",
+                "value": "<Format Format=\"DateTimeCustom\"><DateTimes><DateTime LCID=\"1033\" Group=\"ShortDate\" FormatString=\"yyyy-MM-dd\" /></DateTimes></Format>"
+              }
+            ]
           },
           {
             "name": "Status",
